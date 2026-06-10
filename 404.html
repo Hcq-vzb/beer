@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KIWL Machine</title>
+  <script>
+    (function () {
+      var segment = location.pathname + location.search;
+      if (location.hash && location.hash.indexOf('#/') === 0) {
+        segment = location.hash.slice(1);
+      }
+      sessionStorage.setItem('gh_pages_redirect', segment);
+      location.replace(location.origin + '/');
+    })();
+  </script>
+</head>
+<body></body>
+</html>
