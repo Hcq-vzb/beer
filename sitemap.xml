@@ -108,4 +108,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://beerbeveragemachinery.com/news/brewery-grain-handling-and-milling/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
